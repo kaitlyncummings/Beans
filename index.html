@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaitlyn Cummings Animation Template</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Stick+No+Bills&display=swap" rel="stylesheet"> 
+  </head>
+  <body> 
+    <header class="grid-x align-center">
+      <!-- Below, the rubberBand animate.css class is used to animate the word "Beans" -->
+      <h1 class="cell text-center animate__animated animate__rubberBand">BEANS</h1>
+      <nav class="cell top-bar align-center">
+          <div class="top-bar-center">
+            <ul class="menu vertical medium-horizontal text-center">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <h4 class = "grid-x align-center auto">All Hail Beemo!</h4>
+        <article class="grid-y grid-padding-y">
+          <!-- Below, my keyframes animation is applied to this image. -->
+          <div class="beans-animation cell small-12 medium-5">
+            <img src="media/mainbeans.gif"/>
+          </div>
+          <!-- Below, the grid-y and align-middle classes are used to align this content -->
+          <div class="cell small-12 medium-7 grid-y align-middle">
+            <h2>Beemo the Cat</h2>
+            <p>This website is about Beemo the cat. If the economy favored cats, he would own a kingdom and a country.</p>
+            <h2>Top Beemo Nicknames</h2>
+            <ul>
+              <li>BEANS (All caps)</li>
+              <li>Bean</li>
+              <li>Yard of beans</li>
+              <li>England's Menace</li>
+              <li>The reckoning</li>
+            </ul>
+          </div>   
+      </article>
+      <hr>
+      <h3 class = "grid-x align-center">Favorite BEANS</h3>
+      <!-- This class adds margin around the calls -->
+      <article class="grid-x grid-margin-x grid-margin-y">
+        <!-- Sizing classes -->
+        <div class="card medium-6 large-auto cell">
+          <div class="card-divider">
+          </div>
+          <div class="card-image">
+          <img src="media/beans1.gif" alt="Beans in house">
+          </div>
+          <div class="card-section cell">
+            <h4>House Beans</h4>
+            <p>This is Beans in a house. He will likely destroy it soon. He likes to eat cardboard.</p>
+          </div>
+        </div>
+        <!-- Sizing classes -->
+        <div class="card medium-6 large-auto cell">
+          <div class="card-divider">
+          </div>
+          <div class="card-image">
+            <img src="media/beans2.gif" alt="Beans in costume">
+          </div>
+          <div class="card-section">
+            <h4>Costume Beans</h4>
+            <p>This is Beans in a pickle costume. He might eat that, too.</p>
+          </div>
+        </div>
+        <!-- Sizing classes -->
+        <div class="card medium-6 large-auto cell">
+          <div class="card-divider">
+          </div>
+          <div class="card-image">
+            <img src="media/beans3.gif" alt="Beans in bath">
+          </div>
+          <div class="card-section">
+            <h4>Bath Beans</h4>
+            <p>This is Beans in the bath. He hates baths.</p>
+          </div>
+        </div>
+        <!-- Sizing classes -->
+        <div class="card medium-6 large-auto cell">
+          <div class="card-divider">
+          </div>
+          <div class="card-image">
+            <img src="media/beans4.gif" alt="Beans and friend">
+          </div>
+          <div class="card-section">
+            <h4>Beans and Friend</h4>
+            <p>Surprisingly, Beans has friends. (Well. At least one friend.)</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Here I have added a grid container, and within the grid container is a progress bar. The progress bar is a "media" element that is avilable with
+      Foundation 6 and can be used to illustrate concepts. In this case, the concept is how much of a menace Beans is predicted to be today, like a fire danger meter. 
+      I used the "alert" progress class to make the bar red because it seemed fitting. -->
+      <div class="grid-container">
+        <!-- Below, the title and progress bar aligned in the center of the page using the align-center class. Additionally, a margin is added to position the progress bar in relation to the title. -->
+          <h2 class = "grid-x align-center grid-margin-x">Bean's Menace Danger Meter</h2>
+          <div class="alert progress grid-x align-center" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuetext="99 percent" aria-valuemax="100">
+            <!-- Below, the auto class allows the bar to take up the space in the cell -->
+            <span class="progress-meter cell auto" style="width: 99%">
+              <span class="progress-meter-text">99% chance Beans will be a menace today</span>
+            </span>
+          </div>
+      </div>
+      
+    </main>
+    
+    <footer>
+      <!-- Below, my name is aligned to the left and the year is aligned to the right using the align-left and align-right classes-->
+      <p class = "grid-x align-left">Designed by Kaitlyn Cummings</p><p class = "grid-x align-right">&copy; 2022</p>
+    </footer>
+      
+  <!-- JavaScript Do not remove -->
+  <script src="js/vendor.js"></script>
+  <script src="js/foundation.js"></script>
+  </body>
+</html>
